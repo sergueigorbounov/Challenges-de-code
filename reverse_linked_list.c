@@ -8,15 +8,15 @@ struct ListNode* reverseBetween(struct ListNode* head, int left, int right) {
     for (int i = 1; i < left; i++) {
         prev = prev -> next;
     }
-    struct ListNode* current = prev->next;
-    struct ListNode* next = NULL;
-    struct ListNode* reverse = NULL;
-    for ( int i = 0; i <= right - left; i++) {
+struct ListNode* current = prev->next;
+struct ListNode* next = NULL;
+struct ListNode* reverse = NULL;
+for ( int i = 0; i <= right - left; i++) {
     next = current->next;
     current->next = reverse;
     reverse = current;
     current = next;
-    }
+}
     prev->next->next = current;
     prev->next = reverse;
     return dummy.next;
