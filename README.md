@@ -3,4 +3,4 @@ Reverse Linked List (C), Department Highest Salary (SQL), Design a Simple Bank S
 # Reverse-Linked-List
 ![Department Highest Salary Image](images/revlinkedlist1.png)
 ![Department Highest Salary Image](images/salary.png)
-![Department Highest Salary Image](images/bank.png)
+![Department Highest Salary Image](images/bank1.png)
