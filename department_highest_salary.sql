@@ -17,3 +17,4 @@ FROM
     RankedSalaries
 WHERE 
     rank = 1;
+
